@@ -1,0 +1,23 @@
+{
+  "name": "s3-cf-serverless-website",
+  "version": "1.0.0",
+  "description": "Template for setting up and deploying website to s3 & cloudfront using serverless.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "s3",
+    "cloudfront",
+    "serverless",
+    "aws",
+    "deployment",
+    "kdc"
+  ],
+  "author": {
+    "name": "Ian Dela Cruz",
+    "email": "ian@kdcsoftware.com",
+    "url": "https://www.kdcsoftware.com"
+  },
+  "license": "MIT"
+}

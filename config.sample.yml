@@ -1,0 +1,4 @@
+REGION: us-east-1
+PROFILE: kdc
+DOMAIN: yamangtao.com
+DOMAIN_CERT: arn:aws:acm:us-east-1:1234567890:certificate/uuid
