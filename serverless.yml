@@ -1,4 +1,4 @@
-service: yt-web
+service: s3-cf-serverless-website
 
 custom:
   domain:
