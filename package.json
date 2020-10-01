@@ -1,10 +1,13 @@
 {
   "name": "s3-cf-serverless-website",
   "version": "1.0.0",
-  "description": "Template for setting up and deploying website to s3 & cloudfront using serverless.",
+  "description": "Boilerplate for setting up and deploying website to s3 & cloudfront using serverless.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy:setup": "sls deploy -s",
+    "deploy:info": "sls info -v -s",
+    "deploy:s3": "AWS_PROFILE=<aws-profile> aws s3 sync build/ s3://www.<DOMAIN>",
+    "deploy:cf": "AWS_PROFILE=<aws-profile> aws cloudfront create-invalidation --distribution-id <CFDistributionIdWWW> --paths \"/*\""
   },
   "keywords": [
     "s3",
@@ -12,7 +15,8 @@
     "serverless",
     "aws",
     "deployment",
-    "kdc"
+    "kdc",
+    "boilerplate"
   ],
   "author": {
     "name": "Ian Dela Cruz",
