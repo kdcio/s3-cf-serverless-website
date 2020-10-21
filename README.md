@@ -25,7 +25,7 @@
 ### Clone this Repo
 
 ```terminal
-git clone https://github.com/kdcsoftware/s3-cf-serverless-website.git
+git clone https://github.com/kdcio/s3-cf-serverless-website.git
 cd s3-cf-serverless-website
 ```
 
